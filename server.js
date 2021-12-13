@@ -6,7 +6,8 @@ let users = [
     { id: 3, name: 'Susan' },
     { id: 4, name: 'Bill' },
     { id: 5, name: 'Thomas' },
-    { id: 5, name: 'Alan' }
+    { id: 5, name: 'Alan' },
+    { id: 5, name: 'Russel' }
 
 ]
 let server = http.createServer(function (req,res) {
