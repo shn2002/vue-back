@@ -3,7 +3,8 @@ let  http = require('http')
 let users = [
     { id: 1, name: 'Tom' },
     { id: 2, name: 'Jerry' },
-    { id: 3, name: 'Susan' }
+    { id: 3, name: 'Susan' },
+    { id: 4, name: 'Bill' }
 
 ]
 let server = http.createServer(function (req,res) {
